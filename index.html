@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main>
+      <h1>Cash Register Project</h1>
+      <div id="change-due"></div>
+   <div>
+  <label for="cash">Cash</label>
+  <input type="number" id="cash" placeholder="Enter cash">
+  <button id="purchase-btn">Purchase</button>
+</div>
+<div id="change-due"></div>
+<div id="price-screen"></div>
+<div id="cash-drawer-display"></div>
+      </div>
+      <div class="container">
+        <div class="top-display-screen-container">
+          <p id="price-screen" class="price-screen"></p>
+          <div class="connector"></div>
+        </div>
+        <div class="top-register">
+         <div class="top-register cash-buttons">
+          <button class="cash-button">7</button>
+          <button class="cash-button">8</button>
+          <button class="cash-button">9</button>
+          <button class="cash-button">+</button>
+          <button class="cash-button">4</button>
+          <button class="cash-button">5</button>
+          <button class="cash-button">6</button>
+          <button class="cash-button">-</button>
+          <button class="cash-button">1</button>
+          <button class="cash-button">2</button>
+          <button class="cash-button">3</button>
+          <button class="cash-button">*</button>
+          <button class="cash-button">C</button>
+          <button class="cash-button">0</button>
+          <button class="cash-button">=</button>
+          <button class="cash-button">/</button>
+        </div>
+          <div id="cash-drawer-display" class="cash-drawer-display">
+          </div>
+        </div>
+        <div class="bottom-register">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
+
